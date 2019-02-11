@@ -345,7 +345,7 @@
                                             android:id="@+id/metro"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/metroo" />
+                                            android:background="@drawable/metroooo" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
