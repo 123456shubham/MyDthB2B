@@ -80,7 +80,7 @@
                                             android:id="@+id/mobile"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/ic_phone_android_black_24dp" />
+                                            android:background="@drawable/smartphonecall" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
                                             android:id="@+id/dth"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/dthicon" />
+                                            android:background="@drawable/satellitedishh" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
                                             android:id="@+id/electrict"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/elec" />
+                                            android:background="@drawable/idea" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -152,7 +152,7 @@
                                             android:id="@+id/landline"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/land" />
+                                            android:background="@drawable/phonee" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -175,7 +175,7 @@
                                             android:id="@+id/data"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/data" />
+                                            android:background="@drawable/pendrive" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
