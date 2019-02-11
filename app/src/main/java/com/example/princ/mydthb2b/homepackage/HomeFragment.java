@@ -40,6 +40,7 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+
         final ViewPager mViewPage = view.findViewById(R.id.viewPage);
         ImageAdapaterClass adapterView = new ImageAdapaterClass(getActivity());
         mViewPage.setAdapter(adapterView);
@@ -79,11 +80,12 @@ public class HomeFragment extends Fragment {
                 handler1.post(Update1);
             }
         }, 3000, 3000);
-
+// Hello Shubham Chauhan
 
         return view;
 
     }
+
 
 
 }
