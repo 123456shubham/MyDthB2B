@@ -80,7 +80,7 @@
                                             android:id="@+id/mobile"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/smartphonecall" />
+                                            android:background="@drawable/smartphon" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -199,7 +199,7 @@
                                             android:id="@+id/broadband"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/broad" />
+                                            android:background="@drawable/wifirouter" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                                             android:id="@+id/gas"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/gasicon" />
+                                            android:background="@drawable/flammable" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -248,7 +248,7 @@
                                             android:id="@+id/water"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/watericon" />
+                                            android:background="@drawable/waterh" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -272,7 +272,7 @@
                                             android:id="@+id/insurance"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/insuranceicon"
+                                            android:background="@drawable/umbrella"
                                             tools:ignore="InvalidId" />
 
                                         <TextView
@@ -297,7 +297,7 @@
                                             android:id="@+id/cable"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/ic_live_tv_black_24dp" />
+                                            android:background="@drawable/tv" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -321,7 +321,7 @@
                                             android:id="@+id/googleplay"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/playstoreicon" />
+                                            android:background="@drawable/plays" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -345,7 +345,7 @@
                                             android:id="@+id/metro"
                                             android:layout_width="36dp"
                                             android:layout_height="36dp"
-                                            android:background="@drawable/metroicon" />
+                                            android:background="@drawable/metroo" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -377,14 +377,19 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="0dp"
                     android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
 
 
-                    <androidx.viewpager.widget.ViewPager
-                        android:id="@+id/viewPage"
-                        android:layout_width="wrap_content"
-                        android:layout_height="100dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="5dp" />
+</androidx.cardview.widget.CardView>
+
 
 
                     <LinearLayout
@@ -654,15 +659,20 @@
                             android:layout_height="110dp"
                             android:layout_marginTop="0dp"
                             android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
 
-                            <androidx.viewpager.widget.ViewPager
-                                android:id="@+id/viewPage1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="100dp"
-                                android:layout_marginLeft="5dp"
-                                android:layout_marginRight="5dp">
+                                <androidx.viewpager.widget.ViewPager
+                                    android:id="@+id/viewPage1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp">
 
-                            </androidx.viewpager.widget.ViewPager>
+                                </androidx.viewpager.widget.ViewPager>
+
+                            </androidx.cardview.widget.CardView>
 
                         </LinearLayout>
 
