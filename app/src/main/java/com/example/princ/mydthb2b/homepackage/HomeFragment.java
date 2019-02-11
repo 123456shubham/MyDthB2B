@@ -80,7 +80,9 @@ public class HomeFragment extends Fragment {
                 handler1.post(Update1);
             }
         }, 3000, 3000);
+
 // Hello Shubham Chauhan
+        // Hello
 
         return view;
 
