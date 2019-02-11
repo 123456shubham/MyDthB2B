@@ -18,7 +18,7 @@ public class OTPActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp);
         ButterKnife.bind(this);
-
+// Hello shubham Chauhan
 
     }
     @OnClick(R.id.singInSignInBtn)
