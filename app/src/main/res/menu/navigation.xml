@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:textColorHint="#FF6A00"
+        android:textColor="#FF6A00"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/myaccount"
+        android:textColorHint="#FF6A00"
+        android:textColor="#FF6A00"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="My Account" />
+
+    <item
+        android:id="@+id/navigation_invite"
+        android:textColorHint="#FF6A00"
+        android:textColor="#FF6A00"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Invite &amp; Earn" />
+
+    <item
+        android:textColorHint="#FF6A00"
+        android:textColor="#FF6A00"
+        android:id="@+id/navigation_transaction"
+        android:icon="@drawable/ic_compare_arrows_black_24dp"
+        android:title="transaction" />
+
+    <item
+        android:textColorHint="#FF6A00"
+        android:textColor="#FF6A00"
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+        android:title="notifications" />
+
+
+</menu>
