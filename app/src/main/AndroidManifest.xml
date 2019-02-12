@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".dthpackage.DthActvitiy"
-            android:label="DTH Recharge"
+            android:label="DTH RECHARGE"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
