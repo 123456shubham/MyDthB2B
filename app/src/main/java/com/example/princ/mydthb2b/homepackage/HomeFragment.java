@@ -1,25 +1,33 @@
 package com.example.princ.mydthb2b.homepackage;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
 
 import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import com.example.princ.mydthb2b.ImageAdapaterClass;
 import com.example.princ.mydthb2b.R;
+import com.example.princ.mydthb2b.dthpackage.DthActvitiy;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
 
 public class HomeFragment extends Fragment {
+   private Unbinder unbinder;
 
     private static int currentPage = 0;
     private static int NUM_PAGES = 4;
@@ -33,6 +41,8 @@ public class HomeFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+
     }
 
     @Override
@@ -42,6 +52,7 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         final ViewPager mViewPage = view.findViewById(R.id.viewPage);
+        unbinder=ButterKnife.bind(this,view);
         ImageAdapaterClass adapterView = new ImageAdapaterClass(getActivity());
         mViewPage.setAdapter(adapterView);
         final Handler handler = new Handler();
@@ -81,13 +92,15 @@ public class HomeFragment extends Fragment {
             }
         }, 3000, 3000);
 
-// Hello Shubham Chauhan
-        // Hello
 
         return view;
 
     }
 
-
+@OnClick({R.id.dth,R.id.dthlayout})
+    public void dth(){
+    Intent intent=new Intent(getActivity(), DthActvitiy.class);
+    startActivity(intent);
+}
 
 }
